@@ -1,0 +1,46 @@
+.nav {
+  @media (max-width: 767.98px)  {
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    transform: translateX(-110%);
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 5;
+    transition: all .3s ease-in-out;
+
+    &.is-active {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+    }
+  }
+
+  &-item {
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+
+    @media (max-width: 767.98px) {
+      margin-right: 0!important;
+      padding: 15px 0;
+    }
+  }
+
+  &__link {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    color: var(--color-font);
+  }
+}

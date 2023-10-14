@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+  <title>JsCourses</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="styles/vendor.css">
+  <link rel="stylesheet" href="styles/style.min.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <img src="resources/images/logo.svg" alt="JSCOURSES">
+        </div>
+        <nav class="nav">
+          <ul class="list-reset nav-list">
+            <li class="nav-item">
+              <div class="itc-select" id="select-1">
+                <button type="button" class="itc-select__toggle custom-select" name="article" value="" data-select="toggle" data-index="-1">Статьи</button>
+                <div class="itc-select__dropdown custom-select__dropdown">
+                  <ul class="itc-select__options">
+                    <li class="itc-select__option custom-select__option" data-select="option" data-index="0">
+                      <a class="nav__link" href="">Article 1</a>
+                    </li>
+                    <li class="itc-select__option custom-select__option" data-select="option" data-index="1">
+                      <a class="nav__link" href="">Article 1</a>
+                    </li>
+                    <li class="itc-select__option custom-select__option" data-select="option" data-index="2">
+                      <a class="nav__link" href="">Article 1</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="itc-select" id="select-2">
+                <button type="button" class="itc-select__toggle custom-select" name="article" value="" data-select="toggle" data-index="-1">Курсы</button>
+                <div class="itc-select__dropdown custom-select__dropdown">
+                  <ul class="itc-select__options">
+                    <li class="itc-select__option custom-select__option" data-select="option" data-index="0">
+                      <a class="nav__link" href="">JavaScript Pro</a>
+                    </li>
+                    <li class="itc-select__option custom-select__option" data-select="option" data-index="1">
+                      <a class="nav__link" href="">JavaScript для новчиков</a>
+                    </li>
+                    <li class="itc-select__option custom-select__option" data-select="option" data-index="2">
+                      <a class="nav__link" href="">JavaScript ниндзя</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav__link" href="">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav__link" href="">О нас</a>
+            </li>
+          </ul>
+          <button class="btn-reset btn header-btn header-btn_mobile">Начать учиться</button>
+        </nav>
+        <button class="btn-reset btn header-btn">Начать учиться</button>
+        <div class="header-burger">
+          <span class="header-burger__line"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="way">
+      <div class="container">
+        <h1 class="main-title way-title">Путь JavaScript</h1>
+        <div class="way-image">
+          <picture>
+            <source srcset="resources/images/books-1_mobile.jpg" media="(max-width: 767px)">
+            <img src="resources/images/books-1.jpg" alt="books">
+          </picture>
+          <span class="way-image__date">
+            12<br>
+            Апреля
+          </span>
+          <p class="way-image__descr">
+            Можно выделить три основных направления для прогресса JavaScript
+          </p>
+          <div class="way-image__line"></div>
+        </div>
+      </div>
+      <div class="way-steps">
+        <ul class="list-reset way-steps-list">
+          <li class="way-steps-item">
+            <div class="container">
+              <h3 class="way-steps-item__title">Серверный JavaScript</h3>
+              <div class="way-steps-item__content">
+                <div class="way-steps-item__icon">
+                  <img src="resources/images/mark.svg" alt="marker">
+                </div>
+                <p class="way-steps-item__descr way-steps-item__descr_padding">
+                  Разработчики и клиенты часто неправильно понимают, что такое система. Они видят графический интерфейс и думают, что он и есть система. Они определяют систему в терминах графического интерфейса и считают, что должны сразу начать работу с графическим интерфейсом. Они не понимают важнейшего принципа: ввод/вывод не важен.
+                </p>
+                <small class="way-steps-item__author">— Р. Мартин</small>
+              </div>
+            </div>
+          </li>
+          <li class="way-steps-item">
+            <div class="container way-steps-item_bg">
+              <div class="way-steps-item__wrapper">
+                <picture>
+                  <source srcset="resources/images/books-2_mobile.jpg" media="(max-width: 540px)">
+                  <img src="resources/images/books-2.jpg" alt="books 2">
+                </picture>
+                <p class="way-steps-item__advertising">
+                  Реклама на <a href="">blabla.com</a>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="way-steps-item">
+            <div class="container">
+              <h3 class="way-steps-item__title">Заключение</h3>
+              <p class="way-steps-item__descr">
+                Синхрония осознаёт сюжетный верлибр. Мифопорождающее текстовое устройство диссонирует лирический субъект. Абстрактное высказывание пространственно просветляет деструктивный символ. Ямб, несмотря на то, что все эти характерологические черты отсылают не к единому образу нарратора, интегрирует мифопоэтический хронотоп. Действительно, ударение приводит палимпсест. Контрапункт приводит ритм.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container">
+        <h2 class="title feedback-title">Что вы думаете об этой книге?</h2>
+        <form class="feedback-form">
+          <h4 class="feedback-form__title">Оцените статью</h4>
+          <div class="feedback-form__stars">
+            <span class="feedback-form__count">4</span>
+            <ul class="list-reset feedback-form__list">
+              <li class="feedback-form__item"></li>
+              <li class="feedback-form__item"></li>
+              <li class="feedback-form__item"></li>
+              <li class="feedback-form__item"></li>
+              <li class="feedback-form__item"></li>
+            </ul>
+          </div>
+          <h4 class="feedback-form__title">Добавить комментарий к книге</h4>
+          <div class="feedback-form__wrapper">
+            <label class="feedback-form__label" for="name">
+              <span>Имя</span>
+              <input class="feedback-form__input" type="text" name="name" id="name" placeholder="Александр">
+            </label>
+            <input class="feedback-form__input" type="text" name="email" placeholder="Email">
+            <div class="itc-select select" id="select-3">
+              <button type="button" class="itc-select__toggle select__toggle" name="form-select" value="" data-select="toggle" data-index="-1">Выберите книгу</button>
+              <div class="itc-select__dropdown select__dropdown">
+                <ul class="itc-select__options">
+                  <li class="itc-select__option select__option" data-select="option" data-index="0">JavaScript ниндзя</li>
+                  <li class="itc-select__option select__option" data-select="option" data-index="1">Pragmatic Guide to JavaScript</li>
+                  <li class="itc-select__option select__option" data-select="option" data-index="2">Pro JavaScript Techniques</li>
+                  <li class="itc-select__option select__option" data-select="option" data-index="3">Выразительный JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <textarea class="feedback-form__textarea" name="review" placeholder="Ваш отзыв"></textarea>
+          </div>
+          <button class="btn-reset btn feedback-form__btn">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <section class="more-posts">
+      <div class="container">
+        <h2 class="title more-posts__title">Похожие посты</h2>
+        <div class="swiper more-posts__swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="more-posts__slide">
+                <img src="resources/images/slide1.png" alt="slide1">
+                <small class="more-posts__date">12 декабря</small>
+                <p class="more-posts__name">События жизненного цикла ReactJS</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="more-posts__slide">
+                <img src="resources/images/slide2.png" alt="slide2">
+                <small class="more-posts__date">10 декабря</small>
+                <p class="more-posts__name">CSS Grids. Полное руководство</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="more-posts__slide">
+                <img src="resources/images/slide3.png" alt="slide3">
+                <small class="more-posts__date">5 декабря</small>
+                <p class="more-posts__name">Асинхронность в JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="dialog">
+    <div class="dialog-wrapper">
+      <div class="dialog-close"></div>
+      <h2 class="dialog-title">Начать учиться</h2>
+      <p class="dialog-subtitle">Оставьте заявку и наш менеджер вам перезвонит.</p>
+      <form class="dialog-form">
+        <label class="dialog__label" for="dialogName">
+          <span>Как вас зовут</span>
+          <input type="text" class="dialog__input" name="name" id="dialogName" placeholder="Александр">
+        </label>
+        <input type="text" class="dialog__input" name="email" placeholder="Ваш email">
+        <button class="btn-reset btn dialog__btn">Отправить</button>
+        <p class="dialog__privacy">
+          Нажимая кнопку «Отправить», вы соглашаетесь с <a href="">политикой конфиденциальности</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="scripts/main.min.js"></script>
+</body>
+</html>
